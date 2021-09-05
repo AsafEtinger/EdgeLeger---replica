@@ -1,0 +1,38 @@
+.pri-color {
+  color: #28a745;
+}
+
+.sec-color {
+  color: #fff;
+}
+
+.bg-blue {
+  background: #0284d0;
+}
+
+.bg-green {
+  background: #28a745;
+}
+.btn {
+  padding: 15px 30px;
+  margin: 5px;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.info-bar-logo {
+  padding: 15px 30px;
+  margin: 5px;
+  border: none;
+  text-decoration: none;
+  background: #28a745;
+  border-radius: 45px;
+}
+
+.solution-content h1 {
+  font-size: 3em;
+  font-weight: 100;
+}
