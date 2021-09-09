@@ -115,9 +115,17 @@ body {
   padding: 20px;
 }
 
+.solution-content h1 {
+  font-size: 4em;
+}
+
 .border-btn {
   border: #fff solid 1px;
   width: fit-content;
+}
+
+.border-btn:hover {
+  background-color: #218a39;
 }
 
 .solution-content h4 {
@@ -128,6 +136,16 @@ body {
   text-align: center;
   font-size: 1.3em;
   font-weight: 100;
+}
+
+.business-header h1 {
+  font-weight: 100;
+  font-size: 4em;
+}
+
+.business-header h4 {
+  font-weight: 100;
+  font-size: 2em;
 }
 
 .business-pic {
@@ -170,6 +188,18 @@ body {
   width: 100%;
   height: 100%;
   background-size: cover;
+}
+
+.blog-content h1,
+h4 {
+  font-weight: 100;
+}
+
+.blog-content h1 {
+  font-size: 4em;
+}
+.blog-content h4 {
+  font-size: 2em;
 }
 
 .pro-team {
@@ -222,7 +252,7 @@ body {
   display: block;
 }
 
-.form-callback {
+.last-section {
   background: #f4f4f4;
 }
 
@@ -245,4 +275,62 @@ body {
 .footer-copyrights h4 {
   text-align: center;
   font-weight: 100;
+}
+
+.last-section {
+  display: flex;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form li {
+  list-style: none;
+  padding: 10px;
+}
+
+.form li input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.form-ul {
+  width: 100%;
+}
+
+.button button {
+  width: 100%;
+  color: #fff;
+  background-color: #28a745;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+}
+
+.button button:hover {
+  cursor: pointer;
+  background-color: #218a39;
+}
+
+.form-title {
+  font-size: 4em;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.full-pic {
+  z-index: 999;
+  transform: scale(2, 2);
+  padding: 5em;
+  background: rgba(0, 0, 0, 0.8);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
