@@ -1,4 +1,4 @@
-# EdgeLeger10
+# EdgeLeger - replica
 EdgeLeger website replica.
 
 contains two CSS files,
